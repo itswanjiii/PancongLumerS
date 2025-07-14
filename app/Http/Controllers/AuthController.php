@@ -21,7 +21,7 @@ class AuthController extends Controller
             'username' => 'required',
             'nama' => 'required',
             'email' => 'required|email',
-            'no_telepon' => 'nullable|number',
+            'no_telepon' => 'nullable|numeric',
             'password' => 'required|min:8',
             'confirm-password' => 'required|same:password'
         ]);
